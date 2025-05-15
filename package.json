@@ -1,0 +1,12 @@
+{
+  "name": "quickcart",
+  "version": "1.0.0",
+  "description": "QuickCart is a mobile application that transforms the in-store shopping experience by allowing customers to scan products using their smartphone",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC"
+}
