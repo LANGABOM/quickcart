@@ -1,5 +1,5 @@
 {
-  "name": "quickcart",
+  "name": "@quickcart/monorepo",
   "version": "1.0.0",
   "description": "QuickCart is a mobile application that transforms the in-store shopping experience by allowing customers to scan products using their smartphone",
   "main": "index.js",
@@ -8,5 +8,8 @@
   },
   "keywords": [],
   "author": "",
-  "license": "ISC"
+  "license": "ISC",
+  "workspaces": [
+    "apps/*"
+  ]
 }
