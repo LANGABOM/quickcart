@@ -1,4 +1,13 @@
 node_modules
+# Keep environment variables out of version control
 .env
+.env.local
+.env.*.local
 
+# Keep example env file
+!.env.example
 
+# Keep beta env file
+beta.env
+production.env
+prod.env
