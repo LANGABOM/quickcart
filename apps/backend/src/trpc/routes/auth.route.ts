@@ -17,14 +17,20 @@ const loginSchema = z.object({
   password: z.string(),
 });
 
+
 // Helper function to generate JWT token
 const generateToken = (userId: string): string => {
+  console.log('GDFJKSHJKDSHKFHDSKJFHJDSHFKJDSHKJFHDSJHFJKDSHFKJDHS')
+  console.log({ userId })
+  console.log(env.JWT_EXPIRES_IN)
   return jwt.sign(
     { userId },
     env.JWT_SECRET as any,
     {
-      expiresIn: env.JWT_EXPIRES_IN as any
+      expiresIn: env.JWT_EXPIRES_IN
     }
+
+    
   );
 };
 
