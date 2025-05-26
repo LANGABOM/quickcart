@@ -27,7 +27,7 @@ const generateToken = (userId: string): string => {
     { userId },
     env.JWT_SECRET as any,
     {
-      expiresIn: env.JWT_EXPIRES_IN
+      expiresIn:'24h'
     }
 
     
